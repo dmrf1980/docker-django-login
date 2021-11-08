@@ -1,0 +1,27 @@
+version: '2'
+services:
+  django:
+    image: python:3
+    tty: true 
+    restart: unless-stopped
+    volumes:
+      - ./:/app
+    ports: 
+      - "8000:8000"
+    command: >
+      bash -c "cd /app && 
+      pip install -r requirements.txt && 
+      python manage.py migrate && 
+      python manage.py runserver 0.0.0.0:8000"
+  mysql:
+    image: mysql:8
+    tty: true
+    ports:
+      - "3306:3306"
+    command: --default-authentication-plugin=mysql_native_password
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=root1234
+      - MYSQL_DATABASE=base
+    volumes:
+      - ./mysql:/var/lib/mysql
