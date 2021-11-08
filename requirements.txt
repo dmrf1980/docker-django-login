@@ -1,2 +1,4 @@
 django==3.2.7
+django-mysql
+django-mysql-manager
 mysqlclient
