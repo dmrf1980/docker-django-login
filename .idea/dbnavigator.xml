@@ -38,7 +38,9 @@ select * from auth_user;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="acd9d397-ef18-4595-bc63-bdf14690038d" object-ref="consoles/Connection" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="acd9d397-ef18-4595-bc63-bdf14690038d" />

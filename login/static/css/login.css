@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9eff2;
+}
+
+.div-btn {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cont-btn {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.registro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control-sm {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.btn {
+    border: 1px solid #054d29;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn a {
+    color: #054d29;
+}
+
+.btn:hover {
+    background-color: #054d29;
+    color:#e7e7e7;
+    box-shadow: 20px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn a:hover {
+    color:#e7e7e7;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+h1 a, h2 a {
+    color: #054d29;
+    font-family: 'Bangers', cursive;
+}
+
+div {
+    padding-top: 20px;
+}
+
+.page-header {
+    background-color: #054d29;
+    margin-top: 0;
+    padding: 10px 20px 5px 40px;
+    border-bottom: 8px groove #c2c1c1;
+
+}
+
+.page-header:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 50pt;
+    text-decoration: none;
+}
+
+/* .content {
+    width: 100%;
+} */
+
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    color: rgb(36, 35, 35);
+    font-family: 'Dongle', sans-serif;
+}
+
+.saludo {
+    width: 20%;
+    padding: 10px;
+    padding-top: 13px;
+    font-family: 'Bangers', cursive;
+}
+
+.parrafo {
+    width: 50%;
+    padding:  10px 70px 30px 70px;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.cerrar {
+    width: 30%;
+    padding: 5px;
+    padding-right: 25px;
+    padding-top: 0%;
+    display: flex;
+    justify-content: end;
+   
+    font-size: 30px;
+
+}
+
+
+
+.page-footer {
+    display: flex;
+    background-color: #054d29;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}

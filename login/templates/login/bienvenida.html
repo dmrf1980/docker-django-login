@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Bievenido{% endblock %}
+{% block content %}
+
+
+{% if user.is_authenticated %}
+<div class="principal">
+        <div class="saludo">
+            <h1>Hola {{ user.username }}</h1>
+        </div>
+        <div class="parrafo">
+            <p>
+                Bienvenidos al la pagina de creada para el parcial de ingenieria de software. <br>
+                Trabajo que constaba en clonar repositorio provisto por el docente y ejecutar dentro de docker la aplicacion 
+                de django y crear un login.<br>
+            </p>
+        </div>
+        <div class="cerrar">
+            <a href="{% url 'sign_out' %}">Cerrar sesion</a>
+        </div>
+    {% else %}
+    <div class="div-btn">
+        <div class="cont-btn">
+            <button class="btn"><a href="{% url 'sign_up' %}">Registrate</a></button>
+            <button class="btn"><a href="{% url 'sign_in' %}">Iniciar sesión</a></button>
+        </div>
+    </div>
+</div>
+    {% endif %}
+{% endblock content %}
