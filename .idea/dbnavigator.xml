@@ -24,17 +24,21 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="acd9d397-ef18-4595-bc63-bdf14690038d">
-        <schema name="base" object-types="table, view, procedure, function, constraint, index, column, dataset trigger" />
-        <schema name="mysql" object-types="table, view" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="acd9d397-ef18-4595-bc63-bdf14690038d">
       <console name="Connection" type="STANDARD" schema="base" session="Main"><![CDATA[use base;
-select * from auth_user;]]></console>
+
+show tables;
+
+select * from auth_user;
+
+select * from django_migrations;
+
+select * from login_perfil;
+
+select * from user;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -94,7 +98,7 @@ select * from auth_user;]]></console>
           <deprecated-pwd value="cm9vdDEyMzQ=" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />
