@@ -11,7 +11,6 @@ from django.views.generic.edit import CreateView
 
 from .forms import SignUpForm
 from .models import Perfil
-from datetime import date, timedelta
 
 UserModel = get_user_model()
 

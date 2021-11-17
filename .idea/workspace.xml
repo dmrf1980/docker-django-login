@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d30089b7-8716-48c2-83d2-f6c671010c0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/login/emails/20211116-002412-140404252365568.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/emails/20211116-002918-140404280373936.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/templates/login/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/iniciar_sesion.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/iniciar_sesion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
